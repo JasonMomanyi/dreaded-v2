@@ -22,7 +22,7 @@ const antitag = process.env.ANTITAG || 'true';
 const antidelete = process.env.ANTIDELETE || 'true';
 const autoview = process.env.AUTOVIEW_STATUS || 'true';
 const autolike = process.env.AUTOLIKE_STATUS || 'true';
-const autoread = process.env.AUTOREAD || 'true';
+const autoread = process.env.AUTOREAD || 'false';
 const autobio = process.env.AUTOBIO || 'false';
 
 module.exports = {
